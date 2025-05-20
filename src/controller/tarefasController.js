@@ -4,7 +4,7 @@ const router = express.Router();
 const mongoose = require("mongoose");
 
 //carregando o modelo
-require("../models/tarefas.js");
+require("../models/tarefas");
 const Tarefas = mongoose.model("tarefas");
 
 /* __________Rotas das tarefas __________*/
